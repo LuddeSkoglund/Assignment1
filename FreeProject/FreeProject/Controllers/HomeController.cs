@@ -3,11 +3,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using FreeProjectBLL;
 
 namespace FreeProject.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly TeamMemberManager _teamMemberManager;
+
+        public HomeController()
+        {
+            _teamMemberManager = new TeamMemberManager();
+            
+        }
+
         public ActionResult Index()
         {
             return View();
@@ -35,6 +44,8 @@ namespace FreeProject.Controllers
         public ActionResult Team()
         {
             ViewBag.Message = "YTEam";
+
+           
 
             return PartialView("_Team");
         }
