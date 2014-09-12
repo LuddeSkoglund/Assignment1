@@ -26,5 +26,17 @@ namespace FreeProject.Controllers
 
             return PartialView("_Contact");
         }
+        public ActionResult Services()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return PartialView("_Services");
+        }
+        public ActionResult Team()
+        {
+            ViewBag.Message = "YTEam";
+
+            return PartialView("_Team");
+        }
     }
 }
