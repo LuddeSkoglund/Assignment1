@@ -173,6 +173,20 @@
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FreeProjectBLL\FreeProjectBLL.csproj">
+      <Project>{1957c8b2-4df2-4493-812f-c97df4e184ee}</Project>
+      <Name>FreeProjectBLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FreeProjectDAL\FreeProjectDAL.csproj">
+      <Project>{308a3429-52e0-4ea6-a595-a996c4398b6b}</Project>
+      <Name>FreeProjectDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FreeProjectModels\FreeProjectModels.csproj">
+      <Project>{35d89fe0-df1e-4bf0-b421-d8d6e28565f3}</Project>
+      <Name>FreeProjectModels</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

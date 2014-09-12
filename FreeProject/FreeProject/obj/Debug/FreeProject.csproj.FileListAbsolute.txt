@@ -24,3 +24,11 @@ C:\Users\LudvigSkoglund\Desktop\FreeProject\FreeProject\bin\Newtonsoft.Json.xml
 C:\Users\LudvigSkoglund\Desktop\FreeProject\FreeProject\obj\Debug\FreeProject.csprojResolveAssemblyReference.cache
 C:\Users\LudvigSkoglund\Desktop\FreeProject\FreeProject\obj\Debug\FreeProject.dll
 C:\Users\LudvigSkoglund\Desktop\FreeProject\FreeProject\obj\Debug\FreeProject.pdb
+C:\Users\LudvigSkoglund\Desktop\FreeProject\FreeProject\bin\FreeProjectBLL.dll
+C:\Users\LudvigSkoglund\Desktop\FreeProject\FreeProject\bin\FreeProjectDAL.dll
+C:\Users\LudvigSkoglund\Desktop\FreeProject\FreeProject\bin\FreeProjectModels.dll
+C:\Users\LudvigSkoglund\Desktop\FreeProject\FreeProject\bin\EntityFramework.dll
+C:\Users\LudvigSkoglund\Desktop\FreeProject\FreeProject\bin\FreeProjectBLL.pdb
+C:\Users\LudvigSkoglund\Desktop\FreeProject\FreeProject\bin\FreeProjectDAL.pdb
+C:\Users\LudvigSkoglund\Desktop\FreeProject\FreeProject\bin\FreeProjectModels.pdb
+C:\Users\LudvigSkoglund\Desktop\FreeProject\FreeProject\bin\EntityFramework.xml
