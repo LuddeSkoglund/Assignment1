@@ -24,7 +24,7 @@ namespace FreeProject.Controllers
         {
             ViewBag.Message = "Your contact page.";
 
-            return View();
+            return PartialView("_Contact");
         }
     }
 }

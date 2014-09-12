@@ -25,7 +25,8 @@ namespace FreeProject
                       "~/Scripts/jquery.easing.1.3.js",
                       "~/Scripts/classie.js",
                       "~/Scripts/cbpAnimatedHeader.js",
-                      "~/Scripts/agency.js"));
+                      "~/Scripts/agency.js",
+                      "~/Scripts/Custom_scripts/Navbar.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
