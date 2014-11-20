@@ -1,5 +1,5 @@
 ﻿
-$(function () {
+/*$(function () {
     $('a.page-scroll').bind('click', function() {
         var $anchor = $(this);
         var newValue = $anchor.attr('href').replace('#', '');
@@ -10,4 +10,13 @@ $(function () {
         });
     });
    
+});*/
+
+$(function () {
+    $('a.page-scroll').bind('click', function () {
+        var $anchor = $(this);
+        var newValue = $anchor.attr('href').replace('#', '');
+        $('#' + newValue).load('/Home/' + newValue);
+    });
+    
 });

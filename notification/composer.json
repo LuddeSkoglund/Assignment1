@@ -1,0 +1,22 @@
+{
+    "name": "notification",    
+    "type": "library",
+    "description": "Various base classes for comments management",
+    "keywords": ["comments", "education"],
+    "homepage": "http://dbwebb.se",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ludvig Skoglund",
+            "email": "skoglund.ludvig@gmail.com",
+            "homepage": "",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": { "notification\\": "src/" }
+    }
+}
